@@ -1,10 +1,10 @@
 {
   "name": "test-electron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "author": "Nikita Derevskov",
   "license": "ISC",
