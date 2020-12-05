@@ -4,11 +4,19 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build:windows": "electron-builder --windows"
   },
   "author": "Nikita Derevskov",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^10.1.5"
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {},
+  "build": {
+    "win": {
+      "target": "portable"
+    }
   }
 }
